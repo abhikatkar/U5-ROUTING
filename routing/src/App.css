@@ -1,7 +1,23 @@
 .App {
   text-align: center;
 }
+.affix {
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important;
+  
+}
 
+.affix + .container-fluid {
+  padding-top: 70px;
+}
+.nav {
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  grid-gap: 50px;
+  height: 50px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
